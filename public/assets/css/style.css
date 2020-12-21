@@ -1,0 +1,76 @@
+* {
+    /* Merubah font default */
+    font-family: "poppinsregular", arial, sans-serif;
+}
+
+body {
+    /* Agar content tidak ke atas karena navbar fixed top */
+    padding-top: 75px;
+    /* Agar terasa halus saat proses pergantian darkmode */
+    transition: 0.1s;
+}
+
+/* Style saat mode gelap aktif */
+body.dark{
+    background-color: #18191a;
+    color: white;
+}
+
+/* Style untuk switch mode gelap */
+.wadah-tema-mode {
+    color: white;
+    transition: 0.1s;
+    transform: scale(1.3);
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+/* Kotak tempat switch dark mode */
+.dark-mode {
+    width: 150px;
+    height: 30px;
+    position: fixed;
+    top: 85px;
+    right: 20px;
+    z-index: 99;
+    border-radius: 15px;
+    background-color: #344a8b;
+}
+
+.card {
+    /* Transisi ketika dark mode di card hilang */
+    transition: 0.1s;
+}
+
+.card-dark {
+    /* Style untuk merubah warna card content menjadi dark */
+    background-color: #242526;
+}
+
+.spasi {
+    /* Spasi pada tabel */
+    display: inline;
+    opacity: 0;
+}
+
+.table > tbody > tr > * {
+    /* Mengatur agar text di dalam table akan berada di tengah secara vertikal */
+    vertical-align: middle;
+    transition: 0.1s;
+}
+
+body.dark .table > tbody > tr > * {
+    /* Mengubah warna tulisan dalam tabel ketika darkmode aktif */
+    color: white;
+    /* Agar terasa halus saat proses pergantian darkmode */
+    transition: 0.1s;
+}
+
+noscript {
+    /* Style ketika Javascript dinonaktifkan */
+    width: 100%;
+    height: 100%;
+    z-index: 100000;
+    position: absolute;
+    background-color: white;
+}
