@@ -1,4 +1,4 @@
-# Multiple CRUD CodeIgniter 4 Ajax jQuery
+# Multiple CRUD CodeIgniter 4 jQuery DataTables
 
 ## Aplikasi apa ini?
 Aplikasi ini adalah latihan saya mengenai pembuatan Multiple CRUD menggunakan CodeIgniter 4, Bootstrap 4, dan jQuery DataTable. Aplikasi ini juga sudah menerapkan penggunaan DataTables Serverside, sehingga load data akan lebih cepat bahkan jika data yang di-load mencapai 10.000.
