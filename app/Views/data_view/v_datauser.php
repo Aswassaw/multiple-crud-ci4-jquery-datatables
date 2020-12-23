@@ -97,6 +97,7 @@
     // Fungsi untuk menghapus data
     function deleteData(id_user) {
         // Jika tidak ada data yang dipilih
+        console.log(typeof id_user)
         if (id_user.length === 0) {
             Swal.fire({
                 icon: 'error',
@@ -107,7 +108,7 @@
             Swal.fire({
                 icon: 'warning',
                 title: 'Perhatian!',
-                text: `Data tersebut akan dihapus secara permanen, anda yakin?`,
+                text: `${typeof id_user === 'object' ? id_user.length : 1} data tersebut akan dihapus secara permanen, anda yakin?`,
                 showCancelButton: true,
                 cancelButtonColor: '#d33',
                 cancelButtonText: 'Cancel',
