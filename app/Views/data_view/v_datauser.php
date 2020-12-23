@@ -97,7 +97,6 @@
     // Fungsi untuk menghapus data
     function deleteData(id_user) {
         // Jika tidak ada data yang dipilih
-        console.log(typeof id_user)
         if (id_user.length === 0) {
             Swal.fire({
                 icon: 'error',
