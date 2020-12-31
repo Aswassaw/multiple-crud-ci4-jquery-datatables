@@ -10,8 +10,8 @@ Aplikasi ini adalah latihan saya mengenai pembuatan Multiple CRUD menggunakan Co
 
 ## Cara penggunaan Aplikasi ini
 - Pastikan composer terinstall.
-- Pastikan versi PHP yang terinstall adalah versi 7.3 ke atas.
-- Jalankan composer install.
-- Ubah file env menjadi .env.
-- Buatlah database dengan nama multiplecrudajax, lalu import file sql yang telah disertakan.
-- Untuk menjalankan, jangan pindahkan aplikasi ke dalam htdocs, cukup gunakan php spark serve.
+- Pastikan versi PHP yang terinstall adalah versi `7.3` ke atas.
+- Jalankan `composer install`.
+- Ubah file `env` menjadi `.env`.
+- Buatlah database dengan nama `multiplecrudajax`, lalu import file sql yang telah disertakan.
+- Untuk menjalankan, jangan pindahkan aplikasi ke dalam htdocs, cukup gunakan `php spark serve`.
